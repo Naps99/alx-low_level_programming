@@ -1,23 +1,29 @@
 #include "main.h"
 
 /**
- * _islower - Short description, single line
- * @c: contains value to be compared
+ * print_sign - return 0 letter not lowercase, 1 letter lowercase
+ *
+ *@n: the int to print
  * Return: Always 0.
  */
-int _islower(int c)
-
+int print_sign(int n)
 {
-
-if (c > 'a' && c < 'z')
+if (n > 0)
 {
+_putchar ('+');
 return (1);
+}
+
+else if (n == 0)
+{
+_putchar ('0');
+return (0);
 }
 
 else
 {
-return (0);
+_putchar ('-');
+return (-1);
 }
 
 }
-
