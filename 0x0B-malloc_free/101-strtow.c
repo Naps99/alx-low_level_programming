@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -103,4 +102,6 @@ int countWords(char *s)
 		s++;
 	}
 	return (words);
+}
+
 }
